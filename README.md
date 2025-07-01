@@ -236,10 +236,10 @@ INSERT INTO dataset_anno_info (
   dataset_id, image_path, image_name, annotation_data, annotation_status,
   annotator_id, reviewer_id, anno_task_id, create_time, update_time, deleted
 ) VALUES
-(1, '/data/cat1.jpg', 'cat1.jpg', NULLs, 0, NULL, NULL, NULL, NOW(), NOW(), 0),
-(1, '/data/cat2.jpg', 'cat2.jpg', NULL, 0, NULL, NULL, NULL, NOW(), NOW(), 0),
-(1, '/data/dog1.jpg', 'dog1.jpg', NULL, 0, NULL, NULL, NULL, NOW(), NOW(), 0),
-(1, '/data/dog2.jpg', 'dog2.jpg', NULL, 0, NULL, NULL, NULL, NOW(), NOW(), 0);
+(1, '/data/cat1.jpg', '/static/img/cat1.jpg', 'cat1.jpg', 0, NULL, NULL, NULL, NOW(), NOW(), 0),
+(1, '/data/cat2.jpg', '/static/img/cat2.jpg', 'cat2.jpg', 0, NULL, NULL, NULL, NOW(), NOW(), 0),
+(1, '/data/dog1.jpg', '/static/img/cat1.jpg3', 'cat3.jpg', 0, NULL, NULL, NULL, NOW(), NOW(), 0),
+(1, '/data/dog2.jpg', '/static/img/cat4.jpg', 'cat4.jpg', 0, NULL, NULL, NULL, NOW(), NOW(), 0);
 ```
 
 #### 2.2.2 后端API设计
